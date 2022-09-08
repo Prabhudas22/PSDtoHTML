@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
-
+:root{
+    --primary-color : #bdbdbe
+}
 *{
     margin: 0;
     padding: 0;
@@ -16,23 +18,20 @@ li{
 img{
     width: 100%;
 }
-.main-container{
-    max-width:auto;
-    margin:0 auto;
-    overflow: auto;
-} 
+
 .container{
-    margin-inline: auto;
-    width: min(90%,73.125rem);
+    width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 auto;
 }
 
 
 header{
-    max-width: 100%;
-
+   
     
 }
-.content{
+.main-content{
     width: 1170px;
     margin: 0 auto;
     overflow: hidden;
@@ -70,7 +69,8 @@ a:link {
 .top-menu{
     background-color: #191919;
     padding:9px;
-    /* height: 1%; */
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -124,12 +124,12 @@ a:link {
     margin: 0rem;
 }
 .fa-angle-down{
-    
     font-size: 0.813rem;   
 }
 .title{
-    height: auto;
+    height:auto;
     background-image:url(/images/bg\ .png),url(/images/Layer\ 66.png);
+    width: auto;
     background-repeat:no-repeat;
 }
 .flex-nav{
@@ -209,8 +209,7 @@ a:link {
 }
 .center{
     color: aliceblue;
-    width: 60.9375vw;
-    margin: 0 23.438rem;
+    /* width: 60.9375vw; */
     height:74.5vh;
     display: flex;
     flex-direction: column;
