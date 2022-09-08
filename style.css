@@ -19,9 +19,11 @@ img{
 
 .container{
     width: 1170px;
+    height: 800px;
     margin: 0 auto;
-    overflow: auto;
+    overflow: hidden;
     padding: 0 auto;
+    
 }
 
 
@@ -128,6 +130,7 @@ a:link {
     height:800px;
     background-image:linear-gradient(rgba(30,30,30,0.9),rgba(30,30,30,0.9)),url(/images/background_layer.png);
     width: auto;
+    background-size: cover;
     background-repeat:no-repeat;
 }
 .flex-nav{
