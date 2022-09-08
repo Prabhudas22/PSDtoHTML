@@ -130,7 +130,7 @@ a:link {
     height:800px, 800px;
     background-image:linear-gradient(rgba(30,30,30,0.9),rgba(30,30,30,0.9)),url(/images/background_layer.png);
     width: auto, auto;
-    background-size: cover, ;
+    background-size: cover,cover;
     background-repeat:no-repeat, no-repeat;
 }
 .flex-nav{
