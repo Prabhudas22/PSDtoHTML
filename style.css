@@ -129,7 +129,7 @@ a:link {
 }
 .title{
     height: auto;
-    background-image:url(/images/bg\ .png),url(/images/Layer\ 66.png);
+    background-image:url(/images/Layer\ 66.png);
     background-repeat:no-repeat;
 }
 .flex-nav{
@@ -182,12 +182,6 @@ a:link {
 .push-right{
     margin-left:4rem;
 }
-/* .search,.like,.cart{
-    font-size:1.2rem;
-    margin-top: 0.3rem;
-    margin-left: 0.5rem;
-    margin-right: 1rem;
-} */
 .nav-right{
     margin-top: 0.3rem;
     font-size: 1.2rem;
