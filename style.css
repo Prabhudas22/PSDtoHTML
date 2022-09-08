@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
-:root{
-    --primary-color : #bdbdbe
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -127,8 +125,8 @@ a:link {
     font-size: 0.813rem;   
 }
 .title{
-    height:auto;
-    background-image:url(/images/bg\ .png),url(/images/Layer\ 66.png);
+    height:800px;
+    background-image:linear-gradient(rgba(30,30,30,0.9),rgba(30,30,30,0.9)),url(/images/background_layer.png);
     width: auto;
     background-repeat:no-repeat;
 }
@@ -220,14 +218,14 @@ a:link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top:5rem;
+    margin-top:4rem;
     height: 31vh;
 }
 #ways{
     font-size: 2.625rem;
     width:  50vw;
     font-weight: 900;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
 }
 #inspire{
     font-size: 1.3rem;
