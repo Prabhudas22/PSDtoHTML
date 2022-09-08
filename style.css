@@ -127,11 +127,11 @@ a:link {
     font-size: 0.813rem;   
 }
 .title{
-    height:800px, 800px;
-    background-image:linear-gradient(rgba(30,30,30,0.9),rgba(30,30,30,0.9)),url(/images/background_layer.png);
-    width: auto, auto;
-    background-size: cover,cover;
-    background-repeat:no-repeat, no-repeat;
+    height:800px,800px;
+    background-image:linear-gradient(rgba(30,30,30,0.9),rgba(30,30,30,0.9)),url(./images/background_layer.png);
+    width: auto;
+    background-size: cover;
+    background-repeat:no-repeat;
 }
 .flex-nav{
     height: 7.150153217568948vh;
