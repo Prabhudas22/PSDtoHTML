@@ -4,13 +4,15 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    border: 0;
 }
 body{
+    overflow-x:hidden ;
 }
 a{
-    text-decoration: none;
-
+    text-decoration: none;  
 }
+
 
 li{
     list-style: none;
@@ -29,6 +31,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 .top-menu{
     background-color: #191919;
@@ -79,8 +82,112 @@ li{
     margin-right: 0;
 }
 .v-sep{
-    background-color: white;
+    background-color: rgb(92,92,91);
     width: 1px;
     margin: 0 12px;
 }
 
+.background{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-image:linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.8)),url(/images/background_layer.png);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    color: white;
+    letter-spacing: 0.1rem;
+}
+.nav-left a{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-left{
+    display: flex;
+    width: 100%;
+    overflow: visible;
+    height: auto;
+}
+.nav-left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+.nav-left ul li a{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 14px; 
+    align-self: center;   
+}
+.nav-left .fa-solid{
+    margin-left:8px;
+    color: white;
+}
+.nav-right ul{
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.nav-right i{
+    margin-top: 8px;
+    color:white;
+    font-size: 17px;
+}
+.v-sep1,.v-sep2{
+    width: 1px;
+    background-color: rgb(92,92,91);
+    height:30px;
+}
+#push-right{
+    margin-left: 75px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.center .center-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 729.5px;
+    color: white;
+}
+.center-items{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    background-color: aquamarine;
+    width: auto;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    background-color: blue;
+    width:auto;
+    height: 50%;
+    /* margin-top:200px; */
+}
+.profile img{
+    align-self: center;
+    border-radius: 50%;
+}
+#comment-likes{
+    display: flex;
+}
