@@ -88,15 +88,16 @@ li{
 }
 
 .background{
-    min-width: 100%;
-    min-height: 800px;
+    min-width: 100% 100%;
+    min-height: 800px 800px;
     margin: 0 auto;
     padding: 0;
+    width: auto;
+    background-image:linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.8)),url(/images/background_layer.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
-    background-image:linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.8)),url(/images/background_layer.png);
+    
 }
 .navbar{
     display: flex;
@@ -223,8 +224,8 @@ li{
     align-self: center;
     border-radius: 100%;
     margin-bottom:15px ;
-    width: 50px;
-    height: 50px;
+    width: auto
+    height: auto;
 }
 .profile h6{
     font-weight: 100;
@@ -280,7 +281,7 @@ main .container{
 .sort-blog h5{
     padding-top:8px;
     font-size: 11px;
-    color: #212121;
+    color:#212121
 }
 .sort-blog button{
     margin: 0 15px;
