@@ -92,8 +92,7 @@ li{
     min-height: 800px 800px;
     margin: 0 auto;
     padding: 0;
-    width: auto;
-    background-image:linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.8)),url(./images/background_layer.png);
+    background-image:linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.8)), url(./images/background_layer.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -259,7 +258,7 @@ li{
 
 main{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #f5f5f5;
 }
 
@@ -280,6 +279,7 @@ main .container{
 }
 .sort-blog h5{
     padding-top:8px;
+    margin-right: 5px;
     font-size: 11px;
     color:#212121
 }
@@ -289,7 +289,7 @@ main .container{
     border-radius: 50px;
     height: 30px;
     width: auto;
-    font-size: 11px;
+    font-size: 10.5px;
     letter-spacing: 1px;
     font-weight: 500;
     cursor: pointer;
@@ -322,4 +322,41 @@ main .container{
 .sort-blog button:hover{
     background-color: darkgray;
     border: 1px solid grey;
+}
+.main-content{
+    width: 100vw;
+    height: 2309px;
+    display: grid;
+}
+.main-content{
+    width: 100%;
+    height: 2309px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    width: 1170px;
+    height: 100%;
+    border: 1px solid salmon;
+    display: grid;
+    grid-template-columns: 820px 310px;
+    grid-template-rows:1fr;
+    grid-column-gap:40px;
+    padding-top: 30px;
+}
+.grid1{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.grid2{
+    background-color: #ffff;
+
+}
+.grid-row-span2{
+    grid-row: span 2;
+}
+.btn-more{
+    background-color: lightgoldenrodyellow;
+    height: 120px;
 }
